@@ -9,7 +9,7 @@ import java.io.IOException
 
 object OmnidocBuild {
 
-  val scala213 = "2.13.13"
+  val scala213 = "2.13.14"
   val scala3 = "3.3.3"
 
   val playOrganisation = "com.typesafe.play"
@@ -20,7 +20,7 @@ object OmnidocBuild {
 
   val playVersion              = sys.props.getOrElse("play.version",               "2.9.2")
   val scalaTestPlusPlayVersion = sys.props.getOrElse("scalatestplus-play.version", "6.0.1")
-  val playJsonVersion          = sys.props.getOrElse("play-json.version",          "2.10.4")
+  val playJsonVersion          = sys.props.getOrElse("play-json.version",          "2.10.5")
   val playSlickVersion         = sys.props.getOrElse("play-slick.version",         "5.3.0")
   val maybeTwirlVersion        = sys.props.get("twirl.version")
 
